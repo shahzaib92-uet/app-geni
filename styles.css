@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+header.scrolled {
+    background-color: #002244;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: #003366;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.hero {
+    background-color: #006699;
+    color: white;
+    text-align: center;
+    padding: 100px 0; /* Increased padding to compensate for fixed header */
+}
+
+.hero .btn {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.about-us {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-us .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.featured-services {
+    background-color: #fff;
+}
+
+.featured-services .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-services .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featured-services .service-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    flex: 0 0 32%;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.featured-services .service-item:hover {
+    transform: translateY(-10px);
+}
+
+.featured-services .service-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.testimonials {
+    background-color: #f9f9f9;
+}
+
+.testimonials .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.testimonial-item h4 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.promo-banner {
+    background-color: #ffcc00;
+    color: #003366;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.promo-banner .btn {
+    background-color: #003366;
+    color: #ffcc00;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.contact-us {
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-us .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us form input, .contact-us form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-us form .btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .featured-services .services {
+        flex-direction: column;
+    }
+
+    .featured-services .service-item {
+        flex: 0 0 100%;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+
+
